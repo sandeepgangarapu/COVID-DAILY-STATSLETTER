@@ -1,0 +1,146 @@
+---
+title: "COVID-19 Statistics"
+output: pdf_document
+---
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+  #Load Libs
+library(readr)
+library(dplyr)
+library(tidyr)
+library(knitr)
+ options("scipen"=100, "digits"=4)
+# library(scales)
+#Fetch daily state wise data
+#states_daily <-
+#  read_csv("http://covidtracking.com/api/states/daily.csv")
+```
+
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+# Get today data
+
+today_date <- as.Date(Sys.Date(), "%y%m%d/") 
+yes_date <- as.Date(Sys.Date(), "%y%m%d/") -1
+today_date_mmddyy <- format(today_date, "%m-%d-%Y")
+yes_date_mmddyy <- format(yes_date, "%m-%d-%Y")
+
+urlfile="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
+today_url = paste(urlfile, today_date_mmddyy, ".csv", sep="")
+yes_url <- paste(urlfile, yes_date_mmddyy, ".csv", sep="")
+today_data <- read_csv(url(today_url))
+yes_data <- read_csv(url(yes_url))
+```
+
+
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+
+
+colnames(today_data) <- c('FIPS', 'Admin', "State", "Country", "time", "Latitude", "Longitude", "Confirmed", "Deaths", "Recovered", "activ", 'combinedkey')
+today_data <- today_data %>% mutate(date = as.Date(time), Active = Confirmed-Recovered) %>% filter(date==today_date) 
+today_data <- today_data %>% group_by(State, Country, date) %>% summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
+
+colnames(yes_data) <- c('FIPS', 'Admin', "State", "Country", "time", "Latitude", "Longitude", "Confirmed", "Deaths", "Recovered", "activ", 'combinedkey')
+
+yes_data <- yes_data %>% mutate(date = as.Date(time), Active = Confirmed-Recovered) %>% filter(date==yes_date)
+
+yes_data <- yes_data %>% group_by(State, Country, time) %>% summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
+
+
+```
+
+
+```{r warning=FALSE, echo=FALSE}
+
+new_data <- merge(today_data, yes_data, by.x=c("Country", "State"), by.y=c("Country", "State"))
+new_data <- new_data %>%
+  mutate(Confirmed = Confirmed.x-Confirmed.y,
+         Recovered = Recovered.x-Recovered.y,
+         Deaths = Deaths.x - Deaths.y)
+
+main_data <- new_data %>% mutate(Active.x = Confirmed.x-Recovered.x, Active = Confirmed-Recovered) %>% 
+  select(Country, State, Active.x, Deaths.x, Active, Deaths) %>% 
+  rename(Total_Active = Active.x, Total_Deseased = Deaths.x,
+         New_Active = Active, New_Deceased = Deaths)
+```
+
+# Statistics recorded until `r today_date`
+
+## World
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum)
+df1 <- main_data %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
+
+
+## USA
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% filter(Country=="US") %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum)
+df1 <- main_data %>% filter(Country=="US") %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
+
+## Minnesota
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% filter(Country=="US" & State=="Minnesota") %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum) 
+df1 <- main_data %>% filter(Country=="US" & State=="Minnesota") %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
+
+
+## India
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% filter(Country=="India") %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum)
+df1 <- main_data %>% filter(Country=="India") %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
+
+## Washington
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% filter(Country=="US" & State=="Washington") %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum)
+df1 <- main_data %>% filter(Country=="US" & State=="Washington") %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
+
+
+## California
+
+```{r warning=FALSE, echo=FALSE}
+
+df <- main_data %>% filter(Country=="US" & State=="California") %>% select(-c(Country, State, New_Active, New_Deceased)) %>% summarise_all(sum)
+df1 <- main_data %>% filter(Country=="US" & State=="California") %>% select(-c(Country, State, Total_Active, Total_Deseased)) %>% summarise_all(sum)
+
+kable(df, format="markdown")
+kable(df1, format="markdown")
+
+```
+
