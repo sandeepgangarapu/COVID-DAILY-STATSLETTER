@@ -18,3 +18,6 @@ Currently, this package sends email once a day with fixed locations and fixed st
 No Customizations are available right now. Please feel free to contribute.
 
 If you want to receive daily email, please add your email to the [list.](https://docs.google.com/spreadsheets/d/1HI0llUuuVHRTSnMacgnIVzQmYgZGUckQ2cRMhPTA7QM/)
+
+
+Data [Source](https://github.com/CSSEGISandData/COVID-19) for the project.
