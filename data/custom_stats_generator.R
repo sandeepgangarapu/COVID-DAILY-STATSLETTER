@@ -6,11 +6,11 @@ library(tidyr)
 library(knitr)
 library(stringr)
 options("scipen"=100, "digits"=4)
-setwd("G:\\My Drive\\Projects\\COVID_USA")
+setwd("G:\\My Drive\\Projects\\COVID_USA\\data")
 
 
-today_date <- as.Date(Sys.Date(), "%y%m%d/") 
-yes_date <- as.Date(Sys.Date(), "%y%m%d/") -1
+today_date <- as.Date(Sys.Date(), "%y%m%d/") -1
+yes_date <- as.Date(Sys.Date(), "%y%m%d/") -2
 today_date_mmddyy <- format(today_date, "%m-%d-%Y")
 yes_date_mmddyy <- format(yes_date, "%m-%d-%Y")
 
@@ -46,7 +46,7 @@ new_data_state <- new_data %>% filter(!is.na(State)) %>% select(-State) %>% grou
 world <- new_data %>% select(-c(Country, State)) %>% summarise_all(funs(sum)) %>% mutate(Country='World', State=NA)
   
 final_data <- rbind(new_data_state, new_data, world) %>%
-  region = str_replace(paste(Country, '_', State, sep=''),pattern="_NA",replacement='')
+  mutate(region = str_replace(paste(Country, '_', State, sep=''),pattern="_NA",replacement=''))
 
 
 
@@ -61,8 +61,10 @@ final_data <- final_data %>%
             `New Deaths` = Deaths.x - Deaths.y,
             `New Active`  = `New Confirmed` - (`New Recovered`+`New Deaths`),
             `Perc Increase Confirmed` = `New Confirmed`/Confirmed.y,
-            `Perc Increase Deaths` = `New Deaths`/Deaths.y,
-            `Date` = Date.x)
+            `Perc Increase Deaths` = `New Deaths`/Deaths.y)
 
 write.csv(final_data, "country_state_list.csv", row.names = FALSE)
 
+write.csv(final_data$Region, "test.csv")
+
+table(final_data$Region)

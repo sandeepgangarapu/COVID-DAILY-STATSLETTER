@@ -5,6 +5,7 @@ library(dplyr)
 library(tidyr)
 library(knitr)
 library(stringr)
+library(data.table)
 options("scipen"=100, "digits"=4)
 setwd("G:\\My Drive\\Projects\\COVID_USA")
 
@@ -25,13 +26,13 @@ urlfile="https://raw.githubusercontent.com/datasets/covid-19/master/data/worldwi
 data_world <- read_csv(url(urlfile)) %>% select(-`Increase rate`) %>%  mutate(State = NA, Country= 'World')
 
 total_data <- rbind(data_country_state, data_country, data_world) %>% 
-  mutate(Region = str_replace(paste(Country, '_', State, sep=''),pattern="_NA",replacement=''),)
+  mutate(Region = str_replace(paste(Country, '_', State, sep=''),pattern="_NA",replacement=''),) %>% unique()
 
 today_data <- total_data %>% filter(Date==today_date) 
 yes_data <- total_data %>% filter(Date==yes_date) 
 
 
-final_data <- merge(today_data, yes_data, by.x=c("Region"), by.y=c("Region")) %>% select(-c(Date.y))
+final_data <- today_data %>% merge(yes_data, by="Region") %>% unique()
 
 
 final_data <- final_data %>%
@@ -43,10 +44,12 @@ final_data <- final_data %>%
             `New Confirmed` = Confirmed.x-Confirmed.y,
             `New Recovered` = Recovered.x-Recovered.y,
             `New Deaths` = Deaths.x - Deaths.y,
-            `New Active`  = `New Confirmed` - (`New Recovered`+`New Death`),
+            `New Active`  = `New Confirmed` - (`New Recovered`+`New Deaths`),
             `Perc Increase Confirmed` = `New Confirmed`/Confirmed.y,
             `Perc Increase Deaths` = `New Deaths`/Deaths.y,
             `Date` = Date.x)
 
 write.csv(final_data, "country_state_list.csv", row.names = FALSE)
+write.csv(final_data$Region, "test.csv")
 
+table(final_data$Region)
