@@ -1,5 +1,5 @@
 library(taskscheduleR)
-test <- file.path("G:\\My Drive\\Projects\\COVID_USA\\custom_stats.R")
+test <- file.path("G:\\My Drive\\Projects\\COVID_USA\\custom_stats_generator.R")
 
 
 taskscheduler_create(taskname = "custom_stats", rscript = test,
