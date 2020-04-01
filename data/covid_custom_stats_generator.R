@@ -38,12 +38,14 @@ final_data <- final_data %>%
   transmute(Region = Region,
             `Total Confirmed` = Confirmed.x,
             `Total Recovered` = Recovered.x,
-            `Total Death` = Deaths.x,
+            `Total Deaths` = Deaths.x,
             `Total Active` = Confirmed.x-(Recovered.x+Deaths.x),
             `New Confirmed` = Confirmed.x-Confirmed.y,
             `New Recovered` = Recovered.x-Recovered.y,
-            `New Death` = Deaths.x - Deaths.y,
+            `New Deaths` = Deaths.x - Deaths.y,
             `New Active`  = `New Confirmed` - (`New Recovered`+`New Death`),
+            `Perc Increase Confirmed` = `New Confirmed`/Confirmed.y,
+            `Perc Increase Deaths` = `New Deaths`/Deaths.y,
             `Date` = Date.x)
 
 write.csv(final_data, "country_state_list.csv", row.names = FALSE)

@@ -6,6 +6,8 @@ import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from credentials import sender_email, password
+from datetime import date
 
 
 def get_subscription_data():
@@ -52,8 +54,7 @@ def convert_to_html(user_stat):
         {% for feature, number in Region["values"].items() %}
             <p>{{feature}} : {{number}}</p>
         {% endfor %}
-    {% endfor %}
-    <h2>=================================================</h2>'''
+    {% endfor %}'''
     template = Template(TEMPLATE)
     rendered_html = template.render(
         name=user_stat['email'],
@@ -66,23 +67,20 @@ def emailer(user_data, covid_data):
         user_stat = user_to_stats(j, covid_data)
         html = convert_to_html(user_stat)
         port = 465  # For SSL
-        sender_email = "covid19.customstatsletter@gmail.com"  # admin-email
-        password = "91divoc@91"  # admin-email password
-        receiver_email = "sandeepgangarapu.iitkgp@gmail.com"
+        receiver_email = user_stat['email']
         # Create a secure SSL context
         context = ssl.create_default_context()
         # this is the message which is to be sent
         with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
             server.login(sender_email, password)
             msg = MIMEMultipart('alternative')
-            msg['Subject'] = "Link"
+            msg['Subject'] = "COVID-19 Custom Statistics for " + str(date.today())
             msg['From'] = sender_email
             msg['To'] = receiver_email
             html = MIMEText(html, 'html')
             msg.attach(html)
             server.sendmail(sender_email, receiver_email, msg.as_string())
-        # email-sent to this user
-        print("Sent mail to " + receiver_email)
+    pass
 
 
 if __name__ == '__main__':
