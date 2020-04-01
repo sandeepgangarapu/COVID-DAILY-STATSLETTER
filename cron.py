@@ -1,5 +1,6 @@
-import datetime
+from crontab import CronTab
 
-today = datetime.date.today()
-
-
+cron = CronTab(user='root')
+job = cron.new(command='python stats_generator.py')
+job.hour.on(6)
+cron.write()
