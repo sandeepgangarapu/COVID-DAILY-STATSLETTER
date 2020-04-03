@@ -1,2 +1,7 @@
 sendgrid
 pandas
+#For google sheets
+gspread
+oauth2client
+#For string to html conversion
+jinja2
