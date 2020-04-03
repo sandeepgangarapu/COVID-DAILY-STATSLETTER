@@ -6,8 +6,11 @@ import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from credentials import sender_email, password
+from credentials import sender_email, password, SENDGRID_API_KEY
 from datetime import date
+
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail
 
 
 def get_subscription_data():
@@ -82,6 +85,24 @@ def emailer(user_data, covid_data):
             server.sendmail(sender_email, receiver_email, msg.as_string())
     pass
 
+def send_sendgrid_mail(user_data, covid_data):
+    for i, j in user_data.iterrows():
+        user_stat = user_to_stats(j, covid_data)
+        html = convert_to_html(user_stat)
+        receiver_email = user_stat['email']
+        subject = "COVID-19 Custom Statistics for " + str(date.today())
+
+        message = Mail(
+                    from_email=sender_email,
+                    to_emails=receiver_email,
+                    subject=subject,
+                    html_content=html)
+
+        try:
+            sg = SendGridAPIClient(SENDGRID_API_KEY)
+            sg.send(message)
+        except Exception as e:
+            print(e.message)
 
 if __name__ == '__main__':
     user_data = get_subscription_data()
