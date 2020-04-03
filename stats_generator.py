@@ -38,7 +38,7 @@ def user_to_stats(user, data):
     regions = user['region'].split(',')
     stats = user['stats'].split(',')
     for region in regions:
-        values = data[data['Region'] == region][stats].astyoe(int).iloc[0].to_dict()
+        values = data[data['Region'] == region][stats].astype(int).iloc[0].to_dict()
         region_stat = {'region_name': region, 'values': values}
         region_stats.append(region_stat)
     user_stat = {'email': email, 'region_stats': region_stats}
