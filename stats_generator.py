@@ -26,7 +26,7 @@ def get_subscription_data():
     return pd.DataFrame(user_data)
 
 
-def user_to_stats(user, data):
+def user_to_stats(user, data, data_yest):
     """
     This function maps user preferences to custom stats from covid data
     :param user: each user data
@@ -38,8 +38,11 @@ def user_to_stats(user, data):
     regions = user['region'].split(',')
     stats = user['stats'].split(',')
     for region in regions:
-        values = data[data['Region'] == region][stats].iloc[0].to_dict()
-        region_stat = {'region_name': region, 'values': values}
+        values1 = data[data['region'] == region][stats].iloc[0]
+        values2 = data_yest[data_yest['region'] == region][stats].iloc[0]
+        vals = pd.concat([values1, values2], axis=1).reset_index()
+        vals = vals.values.tolist()
+        region_stat = {'region_name': region, 'values': vals}
         region_stats.append(region_stat)
     user_stat = {'email': email, 'region_stats': region_stats}
     return user_stat
@@ -47,24 +50,29 @@ def user_to_stats(user, data):
 
 def convert_to_html(user_stat):
 
-    TEMPLATE = '''<p>Hello There</b></p>
-    <p>Please Find below the stats you are looking for: </p>
-    {% for Region in Region_stats %}
-        <h3>{{Region["Region_name"]}} :</h3>
-        {% for feature, number in Region["values"].items() %}
-            <p>{{feature}} : {{number}}</p>
+    TEMPLATE = '''<p>Hello There,</b></p>
+    <p>Here are the statistics you subscribed to. The numbers in the parenthesis are values of the same statistic for 
+    yesterday.</p>
+    <p> </p>
+    {% for region in region_stats %}
+        <h3>{{region["region_name"]}} :</h3>
+        {% for feature, number, number2 in region["values"]%}
+            <p>{{feature}} : {{number}} ({{number2}})</p>
         {% endfor %}
-    {% endfor %}'''
+    {% endfor %}
+    <p>If you find a bug, please reply to this email. Please share this with your friends
+    <a href = "https://coronadailyupdates.org/custom-stats">https://coronadailyupdates.org/custom-stats.  </p>
+    <p>Cheers.</p>'''
     template = Template(TEMPLATE)
     rendered_html = template.render(
         name=user_stat['email'],
-        Region_stats=user_stat['region_stats'])
+        region_stats=user_stat['region_stats'])
     return rendered_html
 
 
-def emailer(user_data, covid_data):
+def emailer(user_data, covid_data, covid_data_yest):
     for i, j in user_data.iterrows():
-        user_stat = user_to_stats(j, covid_data)
+        user_stat = user_to_stats(j, covid_data, covid_data_yest)
         html = convert_to_html(user_stat)
         port = 465  # For SSL
         receiver_email = user_stat['email']
@@ -86,5 +94,7 @@ def emailer(user_data, covid_data):
 if __name__ == '__main__':
     user_data = get_subscription_data()
     data_file = 'data/country_state_list.csv'
+    data_file_yest = 'data/country_state_list_yest.csv'
     covid_data = pd.read_csv(data_file)
-    emailer(user_data, covid_data)
+    covid_data_yest = pd.read_csv(data_file_yest)
+    emailer(user_data, covid_data, covid_data_yest)
