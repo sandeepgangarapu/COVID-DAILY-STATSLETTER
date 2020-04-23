@@ -13,6 +13,8 @@ options("scipen"=100, "digits"=4)
 setwd("G:\\My Drive\\Projects\\COVID_USA\\data")
 
 
+# replace  mutate(date = as.Date(yes_date))  replace yes_date with time
+
 today_date <- as.Date(Sys.Date(), "%y%m%d/") 
 yes_date <- as.Date(Sys.Date(), "%y%m%d/") -1
 today_date_mmddyy <- format(today_date, "%m-%d-%Y")
@@ -23,19 +25,15 @@ today_url = paste(urlfile, today_date_mmddyy, ".csv", sep="")
 yes_url <- paste(urlfile, yes_date_mmddyy, ".csv", sep="")
 today_data <- read_csv(url(today_url))
 yes_data <- read_csv(url(yes_url))
-
-
-
-
-
 colnames(today_data) <- c('FIPS', 'Admin', "State", "Country", "time", "Latitude", "Longitude", "Confirmed", "Deaths", "Recovered", "activ", 'combinedkey')
+
+
 today_data <- today_data %>% mutate(date = as.Date(time)) %>% filter(date==today_date) 
 today_data <- today_data %>% group_by(State, Country, date) %>% summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
-
 colnames(yes_data) <- c('FIPS', 'Admin', "State", "Country", "time", "Latitude", "Longitude", "Confirmed", "Deaths", "Recovered", "activ", 'combinedkey')
 
-yes_data <- yes_data %>% mutate(date = as.Date(time)) %>% filter(date==yes_date)
 
+yes_data <- yes_data %>% mutate(date = as.Date(time))  %>% filter(date==yes_date)
 yes_data <- yes_data %>% group_by(State, Country, date) %>% summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
 
 
@@ -64,8 +62,8 @@ final_data <- final_data %>%
             `New Recovered` = Recovered.x-Recovered.y,
             `New Deaths` = Deaths.x - Deaths.y,
             `New Active`  = `New Confirmed` - (`New Recovered`+`New Deaths`),
-            `Perc Increase Confirmed` = round(`New Confirmed`/Confirmed.y, digits=2),
-            `Perc Increase Deaths` = floor(`New Deaths`/Deaths.y), digits=2)
+            `Perc Increase Confirmed` = as.integer(`New Confirmed`/Confirmed.y),
+            `Perc Increase Deaths` = as.integer(`New Deaths`/Deaths.y))
 
 write.csv(final_data, "country_state_list.csv", row.names = FALSE)
 
@@ -121,8 +119,8 @@ final_data <- final_data %>%
             `New Recovered` = Recovered.x-Recovered.y,
             `New Deaths` = Deaths.x - Deaths.y,
             `New Active`  = `New Confirmed` - (`New Recovered`+`New Deaths`),
-            `Perc Increase Confirmed` = round(`New Confirmed`/Confirmed.y, digits=2),
-            `Perc Increase Deaths` = floor(`New Deaths`/Deaths.y), digits=2)
+            `Perc Increase Confirmed` = as.integer(`New Confirmed`/Confirmed.y),
+            `Perc Increase Deaths` = as.integer(`New Deaths`/Deaths.y))
 
 write.csv(final_data, "country_state_list_yest.csv", row.names = FALSE)
 

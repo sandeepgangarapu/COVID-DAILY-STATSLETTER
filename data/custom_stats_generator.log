@@ -1,0 +1,1502 @@
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_character(),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_character(),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_character(),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Admin2 = col_character(),
+  FIPS = col_double(),
+  Combined_Key = col_character(),
+  Incident_Rate = col_double(),
+  People_Tested = col_logical(),
+  People_Hospitalized = col_logical(),
+  UID = col_double(),
+  ISO3 = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Error: Columns `13`, `14`, `15`, `16`, `17` cannot have NA as name
+Execution halted
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_character(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Error in open.connection(con, "rb") : cannot open the connection
+Calls: read_csv ... datasource_connection -> read_connection -> open -> open.connection
+In addition: Warning message:
+In open.connection(con, "rb") :
+  cannot open URL 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-15-2020.csv': HTTP status was '404 Not Found'
+Execution halted
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Warning message:
+NAs introduced by coercion to integer range 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 
+Warning message:
+package 'readr' was built under R version 3.6.3 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package 'tidyr' was built under R version 3.6.3 
+Warning message:
+package 'knitr' was built under R version 3.6.3 
+Warning message:
+package 'stringr' was built under R version 3.6.3 
+Warning message:
+package 'selectr' was built under R version 3.6.3 
+Warning message:
+package 'xml2' was built under R version 3.6.3 
+
+Attaching package: 'rvest'
+
+The following object is masked from 'package:readr':
+
+    guess_encoding
+
+Warning message:
+package 'rvest' was built under R version 3.6.3 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+funs() is soft deprecated as of dplyr 0.8.0
+Please use a list of either functions or lambdas: 
+
+  # Simple named list: 
+  list(mean = mean, median = median)
+
+  # Auto named with `tibble::lst()`: 
+  tibble::lst(mean, median)
+
+  # Using lambdas
+  list(~ mean(., trim = .2), ~ median(., na.rm = TRUE))
+This warning is displayed once per session. 
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Parsed with column specification:
+cols(
+  FIPS = col_double(),
+  Admin2 = col_character(),
+  Province_State = col_character(),
+  Country_Region = col_character(),
+  Last_Update = col_datetime(format = ""),
+  Lat = col_double(),
+  Long_ = col_double(),
+  Confirmed = col_double(),
+  Deaths = col_double(),
+  Recovered = col_double(),
+  Active = col_double(),
+  Combined_Key = col_character()
+)
+Warning message:
+NAs introduced by coercion to integer range 

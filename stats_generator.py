@@ -37,6 +37,7 @@ def user_to_stats(user, data, data_yest):
     email = user['email']
     regions = user['region'].split(',')
     stats = user['stats'].split(',')
+
     for region in regions:
         values1 = data[data['region'] == region][stats].iloc[0]
         values2 = data_yest[data_yest['region'] == region][stats].iloc[0]

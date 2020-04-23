@@ -1,0 +1,553 @@
+Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,type
+World,1929633,"+5,785",119785.0,167.0,453018.0,1356830,main_table_countries_today
+USA,587173,+232,23644.0,4.0,36948.0,526581,main_table_countries_today
+Spain,170099,,17756.0,,64727.0,87616,main_table_countries_today
+Italy,159516,,20465.0,,35435.0,103616,main_table_countries_today
+France,136779,,14967.0,,27718.0,94094,main_table_countries_today
+Germany,130072,,3194.0,,68200.0,58678,main_table_countries_today
+UK,88621,,11329.0,,,76948,main_table_countries_today
+Iran,73303,,4585.0,,45983.0,22735,main_table_countries_today
+Turkey,61049,,1296.0,,3957.0,55796,main_table_countries_today
+Belgium,30589,,3903.0,,6707.0,19979,main_table_countries_today
+Netherlands,26551,,2823.0,,250.0,23478,main_table_countries_today
+Switzerland,25688,,1138.0,,13700.0,10850,main_table_countries_today
+Canada,25680,,780.0,,7756.0,17144,main_table_countries_today
+Brazil,23723,+293,1355.0,27.0,2979.0,19389,main_table_countries_today
+Russia,21102,"+2,774",170.0,22.0,1694.0,19238,main_table_countries_today
+Portugal,16934,,535.0,,277.0,16122,main_table_countries_today
+Austria,14083,+42,368.0,,7343.0,6372,main_table_countries_today
+Israel,11868,+282,117.0,1.0,2000.0,9751,main_table_countries_today
+Sweden,10948,,919.0,,381.0,9648,main_table_countries_today
+Ireland,10647,,365.0,,25.0,10257,main_table_countries_today
+S. Korea,10564,+27,222.0,5.0,7534.0,2808,main_table_countries_today
+India,10541,+88,358.0,,1205.0,8978,main_table_countries_today
+Peru,9784,,216.0,,2642.0,6926,main_table_countries_today
+Japan,7645,+27,143.0,,799.0,6703,main_table_countries_today
+Ecuador,7529,,355.0,,597.0,6577,main_table_countries_today
+Chile,7525,,82.0,,2367.0,5076,main_table_countries_today
+Poland,7049,+115,251.0,6.0,618.0,6180,main_table_countries_today
+Romania,6633,,331.0,,914.0,5388,main_table_countries_today
+Norway,6605,+2,134.0,,32.0,6439,main_table_countries_today
+Australia,6400,+41,61.0,,3598.0,2741,main_table_countries_today
+Denmark,6318,,285.0,,2235.0,3798,main_table_countries_today
+Czechia,6059,,147.0,4.0,527.0,5385,main_table_countries_today
+Pakistan,5716,+220,96.0,3.0,1378.0,4242,main_table_countries_today
+Philippines,5223,+291,335.0,20.0,295.0,4593,main_table_countries_today
+Mexico,5014,+353,332.0,36.0,1964.0,2718,main_table_countries_today
+Saudi Arabia,4934,,65.0,,805.0,4064,main_table_countries_today
+Malaysia,4817,,77.0,,2276.0,2464,main_table_countries_today
+Indonesia,4557,,399.0,,380.0,3778,main_table_countries_today
+UAE,4521,,25.0,,852.0,3644,main_table_countries_today
+Serbia,4054,,85.0,,400.0,3569,main_table_countries_today
+Panama,3472,,94.0,,61.0,3317,main_table_countries_today
+Ukraine,3372,+270,98.0,5.0,119.0,3155,main_table_countries_today
+Luxembourg,3292,,69.0,,500.0,2723,main_table_countries_today
+Qatar,3231,,7.0,,334.0,2890,main_table_countries_today
+Dominican Republic,3167,,177.0,,152.0,2838,main_table_countries_today
+Finland,3064,,59.0,,300.0,2705,main_table_countries_today
+Belarus,2919,,29.0,,203.0,2687,main_table_countries_today
+Singapore,2918,,9.0,,586.0,2323,main_table_countries_today
+Colombia,2852,,112.0,,319.0,2421,main_table_countries_today
+Thailand,2613,+34,41.0,1.0,1405.0,1167,main_table_countries_today
+Argentina,2277,,98.0,,515.0,1664,main_table_countries_today
+South Africa,2272,,27.0,,410.0,1835,main_table_countries_today
+Egypt,2190,,164.0,,589.0,1437,main_table_countries_today
+Greece,2145,,99.0,,269.0,1777,main_table_countries_today
+Algeria,1983,,313.0,,601.0,1069,main_table_countries_today
+Morocco,1763,,126.0,,203.0,1434,main_table_countries_today
+Moldova,1712,,36.0,1.0,134.0,1542,main_table_countries_today
+Iceland,1711,,8.0,,933.0,770,main_table_countries_today
+Croatia,1650,,25.0,,400.0,1225,main_table_countries_today
+Hungary,1512,+54,122.0,13.0,122.0,1268,main_table_countries_today
+Iraq,1378,,78.0,,717.0,583,main_table_countries_today
+Estonia,1373,+41,31.0,3.0,115.0,1227,main_table_countries_today
+New Zealand,1366,+17,9.0,4.0,628.0,729,main_table_countries_today
+Bahrain,1361,,7.0,1.0,591.0,763,main_table_countries_today
+Kuwait,1300,,2.0,,150.0,1148,main_table_countries_today
+Slovenia,1212,,55.0,,152.0,1005,main_table_countries_today
+Kazakhstan,1179,+88,14.0,2.0,142.0,1023,main_table_countries_today
+Azerbaijan,1148,,12.0,,289.0,847,main_table_countries_today
+Bosnia and Herzegovina,1077,+40,39.0,,218.0,820,main_table_countries_today
+Lithuania,1070,+8,24.0,,101.0,945,main_table_countries_today
+Armenia,1067,+28,16.0,2.0,265.0,786,main_table_countries_today
+Uzbekistan,1054,+56,4.0,,89.0,961,main_table_countries_today
+Hong Kong,1010,,4.0,,397.0,609,main_table_countries_today
+North Macedonia,854,,38.0,,44.0,772,main_table_countries_today
+Cameroon,848,,12.0,,98.0,738,main_table_countries_today
+Slovakia,816,+47,2.0,,107.0,707,main_table_countries_today
+Oman,813,+86,4.0,,130.0,679,main_table_countries_today
+Bangladesh,803,,39.0,,42.0,722,main_table_countries_today
+Tunisia,726,,34.0,,43.0,649,main_table_countries_today
+Cuba,726,,21.0,,121.0,584,main_table_countries_today
+Diamond Princess,712,,12.0,,639.0,61,main_table_countries_today
+Bulgaria,695,+10,35.0,3.0,81.0,579,main_table_countries_today
+Afghanistan,665,,21.0,,32.0,612,main_table_countries_today
+Cyprus,662,,12.0,,65.0,585,main_table_countries_today
+Latvia,657,+2,5.0,,16.0,636,main_table_countries_today
+Andorra,646,,29.0,,128.0,489,main_table_countries_today
+Lebanon,632,,20.0,,80.0,532,main_table_countries_today
+Ivory Coast,626,,6.0,,89.0,531,main_table_countries_today
+Costa Rica,612,,3.0,,62.0,547,main_table_countries_today
+Ghana,566,,8.0,,4.0,554,main_table_countries_today
+Niger,548,,13.0,,86.0,449,main_table_countries_today
+Burkina Faso,515,,27.0,,161.0,327,main_table_countries_today
+Uruguay,483,,8.0,,248.0,227,main_table_countries_today
+Albania,467,,23.0,,232.0,212,main_table_countries_today
+Channel Islands,436,,9.0,,48.0,379,main_table_countries_today
+Kyrgyzstan,430,+11,5.0,,71.0,354,main_table_countries_today
+Honduras,407,+10,26.0,1.0,7.0,374,main_table_countries_today
+Taiwan,393,,6.0,,124.0,263,main_table_countries_today
+Jordan,391,,7.0,,215.0,169,main_table_countries_today
+Réunion,391,,,,40.0,351,main_table_countries_today
+Malta,384,,3.0,,44.0,337,main_table_countries_today
+San Marino,371,,36.0,,53.0,282,main_table_countries_today
+Bolivia,354,+24,28.0,1.0,6.0,320,main_table_countries_today
+Nigeria,343,,10.0,,91.0,242,main_table_countries_today
+Mauritius,324,,9.0,,42.0,273,main_table_countries_today
+Guinea,319,,,,17.0,302,main_table_countries_today
+Palestine,308,,2.0,,58.0,248,main_table_countries_today
+Djibouti,298,,2.0,,41.0,255,main_table_countries_today
+Georgia,296,+24,3.0,,68.0,225,main_table_countries_today
+Senegal,291,,2.0,,178.0,111,main_table_countries_today
+Montenegro,278,+4,4.0,1.0,5.0,269,main_table_countries_today
+Vietnam,265,,,,166.0,99,main_table_countries_today
+Isle of Man,242,,2.0,,131.0,109,main_table_countries_today
+DRC,235,,20.0,,17.0,198,main_table_countries_today
+Sri Lanka,218,+1,7.0,,59.0,152,main_table_countries_today
+Kenya,208,,9.0,,40.0,159,main_table_countries_today
+Mayotte,207,,3.0,,59.0,145,main_table_countries_today
+Venezuela,189,,9.0,,110.0,70,main_table_countries_today
+Faeroe Islands,184,,,,163.0,21,main_table_countries_today
+Guatemala,167,+11,5.0,,19.0,143,main_table_countries_today
+Paraguay,159,+12,7.0,1.0,22.0,130,main_table_countries_today
+Martinique,157,,6.0,,50.0,101,main_table_countries_today
+El Salvador,149,+12,6.0,,25.0,118,main_table_countries_today
+Guadeloupe,145,,8.0,,67.0,70,main_table_countries_today
+Brunei,136,,1.0,,107.0,28,main_table_countries_today
+Gibraltar,129,,,,93.0,36,main_table_countries_today
+Rwanda,127,,,,42.0,85,main_table_countries_today
+Mali,123,,10.0,,26.0,87,main_table_countries_today
+Cambodia,122,,,,91.0,31,main_table_countries_today
+Trinidad and Tobago,113,,8.0,,17.0,88,main_table_countries_today
+Madagascar,106,,,,21.0,85,main_table_countries_today
+Monaco,93,,1.0,,6.0,86,main_table_countries_today
+Aruba,92,,,,32.0,60,main_table_countries_today
+French Guiana,86,,,,51.0,35,main_table_countries_today
+Liechtenstein,79,,1.0,,55.0,23,main_table_countries_today
+Togo,77,,3.0,,29.0,45,main_table_countries_today
+Ethiopia,74,,3.0,,14.0,57,main_table_countries_today
+Jamaica,73,,4.0,,19.0,50,main_table_countries_today
+Barbados,72,,4.0,,13.0,55,main_table_countries_today
+Myanmar,62,,4.0,,2.0,56,main_table_countries_today
+Congo,60,,5.0,,5.0,50,main_table_countries_today
+Somalia,60,,2.0,,2.0,56,main_table_countries_today
+Liberia,59,,6.0,,4.0,49,main_table_countries_today
+Bermuda,57,,5.0,,30.0,22,main_table_countries_today
+Gabon,57,,1.0,,1.0,55,main_table_countries_today
+French Polynesia,55,,,,,55,main_table_countries_today
+Cayman Islands,54,,1.0,,6.0,47,main_table_countries_today
+Uganda,54,,,,7.0,47,main_table_countries_today
+Sint Maarten,52,+2,9.0,,5.0,38,main_table_countries_today
+Bahamas,49,,8.0,,6.0,35,main_table_countries_today
+Tanzania,49,,3.0,,7.0,39,main_table_countries_today
+Guyana,47,,6.0,,8.0,33,main_table_countries_today
+Zambia,45,,2.0,,30.0,13,main_table_countries_today
+Macao,45,,,,10.0,35,main_table_countries_today
+Haiti,40,,3.0,,,37,main_table_countries_today
+Guinea-Bissau,38,,,,,38,main_table_countries_today
+Benin,35,,1.0,,5.0,29,main_table_countries_today
+Eritrea,34,,,,,34,main_table_countries_today
+Saint Martin,32,,2.0,,11.0,19,main_table_countries_today
+Mongolia,30,+13,,,5.0,25,main_table_countries_today
+Sudan,29,,4.0,,4.0,21,main_table_countries_today
+Libya,26,,1.0,,9.0,16,main_table_countries_today
+Syria,25,,2.0,,5.0,18,main_table_countries_today
+Antigua and Barbuda,23,,2.0,,3.0,18,main_table_countries_today
+Chad,23,,,,2.0,21,main_table_countries_today
+Equatorial Guinea,21,,,,4.0,17,main_table_countries_today
+Mozambique,21,,,,2.0,19,main_table_countries_today
+Maldives,20,,,,14.0,6,main_table_countries_today
+Angola,19,,2.0,,4.0,13,main_table_countries_today
+Laos,19,,,,,19,main_table_countries_today
+Belize,18,,2.0,,,16,main_table_countries_today
+New Caledonia,18,,,,1.0,17,main_table_countries_today
+Zimbabwe,17,,3.0,,,14,main_table_countries_today
+Malawi,16,,2.0,,,14,main_table_countries_today
+Nepal,16,+2,,,1.0,15,main_table_countries_today
+Dominica,16,,,,8.0,8,main_table_countries_today
+Fiji,16,,,,,16,main_table_countries_today
+Namibia,16,,,,3.0,13,main_table_countries_today
+Saint Lucia,15,,,,4.0,11,main_table_countries_today
+Eswatini,15,,,,7.0,8,main_table_countries_today
+Curaçao,14,,1.0,,10.0,3,main_table_countries_today
+Grenada,14,,,,,14,main_table_countries_today
+Botswana,13,,1.0,,,12,main_table_countries_today
+Saint Kitts and Nevis,12,,,,,12,main_table_countries_today
+St. Vincent Grenadines,12,,,,1.0,11,main_table_countries_today
+CAR,11,,,,3.0,8,main_table_countries_today
+Greenland,11,,,,11.0,0,main_table_countries_today
+Montserrat,11,,,,1.0,10,main_table_countries_today
+Seychelles,11,,,,,11,main_table_countries_today
+Cabo Verde,10,,1.0,,1.0,8,main_table_countries_today
+Suriname,10,,1.0,,6.0,3,main_table_countries_today
+Turks and Caicos,10,,1.0,,,9,main_table_countries_today
+Sierra Leone,10,,,,,10,main_table_countries_today
+MS Zaandam,9,,2.0,,,7,main_table_countries_today
+Gambia,9,,1.0,,2.0,6,main_table_countries_today
+Nicaragua,9,,1.0,,4.0,4,main_table_countries_today
+Vatican City,8,,,,2.0,6,main_table_countries_today
+Mauritania,7,,1.0,,2.0,4,main_table_countries_today
+St. Barth,6,,,,4.0,2,main_table_countries_today
+Timor-Leste,6,+2,,,1.0,5,main_table_countries_today
+Western Sahara,6,,,,,6,main_table_countries_today
+Burundi,5,,1.0,,,4,main_table_countries_today
+Bhutan,5,,,,2.0,3,main_table_countries_today
+Falkland Islands,5,,,,1.0,4,main_table_countries_today
+Sao Tome and Principe,4,,,,,4,main_table_countries_today
+South Sudan,4,,,,,4,main_table_countries_today
+Anguilla,3,,,,1.0,2,main_table_countries_today
+British Virgin Islands,3,,,,2.0,1,main_table_countries_today
+Caribbean Netherlands,3,,,,,3,main_table_countries_today
+Papua New Guinea,2,,,,,2,main_table_countries_today
+Saint Pierre Miquelon,1,,,,,1,main_table_countries_today
+Yemen,1,,,,,1,main_table_countries_today
+China,82249,+89,3341.0,,77738.0,1170,main_table_countries_today
+Total:,1929633,"+5,785",119785.0,167.0,453018.0,1356830,main_table_countries_today
+World,1923848,"+71,591",119618.0,"+5,423",444636.0,1359594,main_table_countries_yesterday
+China,82160,+108,3341.0,+2,77663.0,1156,main_table_countries_yesterday
+USA,586941,"+26,641",23640.0,"+1,535",36948.0,526353,main_table_countries_yesterday
+Spain,170099,"+3,268",17756.0,+547,64727.0,87616,main_table_countries_yesterday
+Italy,159516,"+3,153",20465.0,+566,35435.0,103616,main_table_countries_yesterday
+France,136779,"+4,188",14967.0,+574,27718.0,94094,main_table_countries_yesterday
+Germany,130072,"+2,218",3194.0,+172,64300.0,62578,main_table_countries_yesterday
+UK,88621,"+4,342",11329.0,+717,,76948,main_table_countries_yesterday
+Iran,73303,"+1,617",4585.0,+111,45983.0,22735,main_table_countries_yesterday
+Turkey,61049,"+4,093",1296.0,+98,3957.0,55796,main_table_countries_yesterday
+Belgium,30589,+942,3903.0,+303,6707.0,19979,main_table_countries_yesterday
+Netherlands,26551,+964,2823.0,+86,250.0,23478,main_table_countries_yesterday
+Switzerland,25688,+273,1138.0,+32,13700.0,10850,main_table_countries_yesterday
+Canada,25680,"+1,297",780.0,+63,7756.0,17144,main_table_countries_yesterday
+Brazil,23430,"+1,238",1328.0,+105,173.0,21929,main_table_countries_yesterday
+Russia,18328,"+2,558",148.0,+18,1470.0,16710,main_table_countries_yesterday
+Portugal,16934,+349,535.0,+31,277.0,16122,main_table_countries_yesterday
+Austria,14041,+96,368.0,+18,7343.0,6330,main_table_countries_yesterday
+Israel,11586,+441,116.0,+13,1855.0,9615,main_table_countries_yesterday
+Sweden,10948,+465,919.0,+20,381.0,9648,main_table_countries_yesterday
+Ireland,10647,+992,365.0,+31,25.0,10257,main_table_countries_yesterday
+S. Korea,10537,+25,217.0,+3,7447.0,2873,main_table_countries_yesterday
+India,10453,"+1,248",358.0,+27,1181.0,8914,main_table_countries_yesterday
+Peru,9784,"+2,265",216.0,+23,2642.0,6926,main_table_countries_yesterday
+Japan,7618,+248,143.0,+20,799.0,6676,main_table_countries_yesterday
+Ecuador,7529,+63,355.0,+22,597.0,6577,main_table_countries_yesterday
+Chile,7525,+312,82.0,+2,2367.0,5076,main_table_countries_yesterday
+Poland,6934,+260,245.0,+13,487.0,6202,main_table_countries_yesterday
+Romania,6633,+333,331.0,+15,914.0,5388,main_table_countries_yesterday
+Norway,6603,+78,134.0,+6,32.0,6437,main_table_countries_yesterday
+Australia,6359,+46,61.0,+2,3494.0,2804,main_table_countries_yesterday
+Denmark,6318,+144,285.0,+12,2235.0,3798,main_table_countries_yesterday
+Czechia,6059,+68,143.0,+5,519.0,5397,main_table_countries_yesterday
+Pakistan,5496,+266,93.0,+2,1095.0,4308,main_table_countries_yesterday
+Saudi Arabia,4934,+472,65.0,+6,805.0,4064,main_table_countries_yesterday
+Philippines,4932,+284,315.0,+18,242.0,4375,main_table_countries_yesterday
+Malaysia,4817,+134,77.0,+1,2276.0,2464,main_table_countries_yesterday
+Mexico,4661,+442,296.0,+23,1843.0,2522,main_table_countries_yesterday
+Indonesia,4557,+316,399.0,+26,380.0,3778,main_table_countries_yesterday
+UAE,4521,+398,25.0,+3,852.0,3644,main_table_countries_yesterday
+Serbia,4054,+424,85.0,+5,400.0,3569,main_table_countries_yesterday
+Panama,3472,+72,94.0,+7,61.0,3317,main_table_countries_yesterday
+Luxembourg,3292,+11,69.0,+3,500.0,2723,main_table_countries_yesterday
+Qatar,3231,+252,7.0,,334.0,2890,main_table_countries_yesterday
+Dominican Republic,3167,+200,177.0,+4,152.0,2838,main_table_countries_yesterday
+Ukraine,3102,+325,93.0,+10,97.0,2912,main_table_countries_yesterday
+Finland,3064,+90,59.0,+3,300.0,2705,main_table_countries_yesterday
+Belarus,2919,+341,29.0,+3,203.0,2687,main_table_countries_yesterday
+Singapore,2918,+386,9.0,+1,586.0,2323,main_table_countries_yesterday
+Colombia,2852,+76,112.0,+3,319.0,2421,main_table_countries_yesterday
+Thailand,2579,+28,40.0,+2,1288.0,1251,main_table_countries_yesterday
+Argentina,2277,+135,98.0,+8,515.0,1664,main_table_countries_yesterday
+South Africa,2272,+99,27.0,+2,410.0,1835,main_table_countries_yesterday
+Egypt,2190,+125,164.0,+5,589.0,1437,main_table_countries_yesterday
+Greece,2145,+31,99.0,+1,269.0,1777,main_table_countries_yesterday
+Algeria,1983,+69,313.0,+20,601.0,1069,main_table_countries_yesterday
+Morocco,1763,+102,126.0,+8,203.0,1434,main_table_countries_yesterday
+Moldova,1712,+50,35.0,+4,107.0,1570,main_table_countries_yesterday
+Iceland,1711,+10,8.0,,933.0,770,main_table_countries_yesterday
+Croatia,1650,+50,25.0,+2,400.0,1225,main_table_countries_yesterday
+Hungary,1458,+48,109.0,+10,120.0,1229,main_table_countries_yesterday
+Iraq,1378,+26,78.0,+2,717.0,583,main_table_countries_yesterday
+Bahrain,1361,+225,6.0,,591.0,764,main_table_countries_yesterday
+New Zealand,1349,+19,5.0,+1,546.0,798,main_table_countries_yesterday
+Estonia,1332,+23,28.0,+3,102.0,1202,main_table_countries_yesterday
+Kuwait,1300,+66,2.0,+1,150.0,1148,main_table_countries_yesterday
+Slovenia,1212,+7,55.0,+2,152.0,1005,main_table_countries_yesterday
+Azerbaijan,1148,+50,12.0,+1,289.0,847,main_table_countries_yesterday
+Kazakhstan,1091,+140,12.0,+2,138.0,941,main_table_countries_yesterday
+Lithuania,1062,+9,24.0,+1,101.0,937,main_table_countries_yesterday
+Armenia,1039,+26,14.0,+1,211.0,814,main_table_countries_yesterday
+Bosnia and Herzegovina,1037,+28,39.0,,206.0,792,main_table_countries_yesterday
+Hong Kong,1010,+5,4.0,,397.0,609,main_table_countries_yesterday
+Uzbekistan,998,+133,4.0,,85.0,909,main_table_countries_yesterday
+North Macedonia,854,+26,38.0,+4,44.0,772,main_table_countries_yesterday
+Cameroon,848,+28,12.0,,98.0,738,main_table_countries_yesterday
+Bangladesh,803,+182,39.0,+5,42.0,722,main_table_countries_yesterday
+Slovakia,769,+27,2.0,,107.0,660,main_table_countries_yesterday
+Oman,727,+128,4.0,,124.0,599,main_table_countries_yesterday
+Tunisia,726,+19,34.0,+3,43.0,649,main_table_countries_yesterday
+Cuba,726,+57,21.0,+3,121.0,584,main_table_countries_yesterday
+Diamond Princess,712,,12.0,,639.0,61,main_table_countries_yesterday
+Bulgaria,685,+10,32.0,+3,71.0,582,main_table_countries_yesterday
+Afghanistan,665,+58,21.0,+3,32.0,612,main_table_countries_yesterday
+Cyprus,662,+29,12.0,+1,65.0,585,main_table_countries_yesterday
+Latvia,655,+4,5.0,,16.0,634,main_table_countries_yesterday
+Andorra,646,+8,29.0,,128.0,489,main_table_countries_yesterday
+Lebanon,632,+2,20.0,,80.0,532,main_table_countries_yesterday
+Ivory Coast,626,+52,6.0,+1,89.0,531,main_table_countries_yesterday
+Costa Rica,612,+17,3.0,,62.0,547,main_table_countries_yesterday
+Ghana,566,,8.0,,4.0,554,main_table_countries_yesterday
+Niger,548,+19,13.0,+1,86.0,449,main_table_countries_yesterday
+Burkina Faso,515,+18,27.0,,161.0,327,main_table_countries_yesterday
+Uruguay,483,,8.0,+1,248.0,227,main_table_countries_yesterday
+Albania,467,+21,23.0,,232.0,212,main_table_countries_yesterday
+Channel Islands,436,+5,9.0,,48.0,379,main_table_countries_yesterday
+Kyrgyzstan,419,+42,5.0,,67.0,347,main_table_countries_yesterday
+Honduras,397,+4,25.0,,7.0,365,main_table_countries_yesterday
+Taiwan,393,+5,6.0,,114.0,273,main_table_countries_yesterday
+Jordan,391,+2,7.0,,215.0,169,main_table_countries_yesterday
+Réunion,391,+2,,,40.0,351,main_table_countries_yesterday
+Malta,384,+6,3.0,,44.0,337,main_table_countries_yesterday
+San Marino,371,+15,36.0,+1,53.0,282,main_table_countries_yesterday
+Nigeria,343,+20,10.0,,91.0,242,main_table_countries_yesterday
+Bolivia,330,+30,27.0,+3,2.0,301,main_table_countries_yesterday
+Mauritius,324,,9.0,,42.0,273,main_table_countries_yesterday
+Guinea,319,+69,,,17.0,302,main_table_countries_yesterday
+Palestine,308,+18,2.0,,58.0,248,main_table_countries_yesterday
+Djibouti,298,+84,2.0,,41.0,255,main_table_countries_yesterday
+Senegal,291,+11,2.0,,178.0,111,main_table_countries_yesterday
+Montenegro,274,+2,3.0,,5.0,266,main_table_countries_yesterday
+Georgia,272,+15,3.0,,68.0,201,main_table_countries_yesterday
+Vietnam,265,+3,,,146.0,119,main_table_countries_yesterday
+Isle of Man,242,+14,2.0,,131.0,109,main_table_countries_yesterday
+DRC,235,+1,20.0,,17.0,198,main_table_countries_yesterday
+Sri Lanka,217,+7,7.0,,56.0,154,main_table_countries_yesterday
+Kenya,208,+11,9.0,+1,40.0,159,main_table_countries_yesterday
+Mayotte,207,+11,3.0,,59.0,145,main_table_countries_yesterday
+Venezuela,189,+8,9.0,,110.0,70,main_table_countries_yesterday
+Faeroe Islands,184,,,,157.0,27,main_table_countries_yesterday
+Martinique,157,+2,6.0,,50.0,101,main_table_countries_yesterday
+Guatemala,156,+1,5.0,,19.0,132,main_table_countries_yesterday
+Paraguay,147,+13,6.0,,22.0,119,main_table_countries_yesterday
+Guadeloupe,145,+2,8.0,,67.0,70,main_table_countries_yesterday
+El Salvador,137,+12,6.0,,22.0,109,main_table_countries_yesterday
+Brunei,136,,1.0,,107.0,28,main_table_countries_yesterday
+Gibraltar,129,,,,93.0,36,main_table_countries_yesterday
+Rwanda,127,+1,,,42.0,85,main_table_countries_yesterday
+Mali,123,+18,10.0,+1,26.0,87,main_table_countries_yesterday
+Cambodia,122,,,,77.0,45,main_table_countries_yesterday
+Trinidad and Tobago,113,,8.0,,16.0,89,main_table_countries_yesterday
+Madagascar,106,,,,21.0,85,main_table_countries_yesterday
+Monaco,93,,1.0,,6.0,86,main_table_countries_yesterday
+Aruba,92,,,,32.0,60,main_table_countries_yesterday
+French Guiana,86,,,,51.0,35,main_table_countries_yesterday
+Liechtenstein,79,,1.0,,55.0,23,main_table_countries_yesterday
+Togo,77,+1,3.0,,29.0,45,main_table_countries_yesterday
+Ethiopia,74,+3,3.0,,14.0,57,main_table_countries_yesterday
+Jamaica,73,+1,4.0,,19.0,50,main_table_countries_yesterday
+Barbados,72,+1,4.0,,13.0,55,main_table_countries_yesterday
+Myanmar,62,+21,4.0,,2.0,56,main_table_countries_yesterday
+Congo,60,,5.0,,5.0,50,main_table_countries_yesterday
+Somalia,60,+35,2.0,+1,2.0,56,main_table_countries_yesterday
+Liberia,59,+9,6.0,+1,4.0,49,main_table_countries_yesterday
+Bermuda,57,,5.0,+1,30.0,22,main_table_countries_yesterday
+Gabon,57,+8,1.0,,1.0,55,main_table_countries_yesterday
+French Polynesia,55,+2,,,,55,main_table_countries_yesterday
+Cayman Islands,54,+1,1.0,,6.0,47,main_table_countries_yesterday
+Uganda,54,,,,7.0,47,main_table_countries_yesterday
+Sint Maarten,50,,9.0,,5.0,36,main_table_countries_yesterday
+Bahamas,49,+3,8.0,,6.0,35,main_table_countries_yesterday
+Tanzania,49,+17,3.0,,7.0,39,main_table_countries_yesterday
+Guyana,47,+2,6.0,,8.0,33,main_table_countries_yesterday
+Zambia,45,+2,2.0,,30.0,13,main_table_countries_yesterday
+Macao,45,,,,10.0,35,main_table_countries_yesterday
+Haiti,40,+7,3.0,,,37,main_table_countries_yesterday
+Guinea-Bissau,38,,,,,38,main_table_countries_yesterday
+Benin,35,,1.0,,5.0,29,main_table_countries_yesterday
+Eritrea,34,,,,,34,main_table_countries_yesterday
+Saint Martin,32,,2.0,,11.0,19,main_table_countries_yesterday
+Sudan,29,+10,4.0,+2,4.0,21,main_table_countries_yesterday
+Libya,26,+1,1.0,,9.0,16,main_table_countries_yesterday
+Syria,25,,2.0,,5.0,18,main_table_countries_yesterday
+Antigua and Barbuda,23,+2,2.0,,3.0,18,main_table_countries_yesterday
+Chad,23,+5,,,2.0,21,main_table_countries_yesterday
+Equatorial Guinea,21,,,,4.0,17,main_table_countries_yesterday
+Mozambique,21,,,,2.0,19,main_table_countries_yesterday
+Maldives,20,,,,14.0,6,main_table_countries_yesterday
+Angola,19,,2.0,,4.0,13,main_table_countries_yesterday
+Laos,19,,,,,19,main_table_countries_yesterday
+Belize,18,+4,2.0,,,16,main_table_countries_yesterday
+New Caledonia,18,,,,1.0,17,main_table_countries_yesterday
+Zimbabwe,17,+3,3.0,,,14,main_table_countries_yesterday
+Mongolia,17,+1,,,4.0,13,main_table_countries_yesterday
+Malawi,16,+3,2.0,,,14,main_table_countries_yesterday
+Dominica,16,,,,8.0,8,main_table_countries_yesterday
+Fiji,16,,,,,16,main_table_countries_yesterday
+Namibia,16,,,,3.0,13,main_table_countries_yesterday
+Saint Lucia,15,,,,4.0,11,main_table_countries_yesterday
+Eswatini,15,+1,,,7.0,8,main_table_countries_yesterday
+Curaçao,14,,1.0,,8.0,5,main_table_countries_yesterday
+Nepal,14,+2,,,1.0,13,main_table_countries_yesterday
+Grenada,14,,,,,14,main_table_countries_yesterday
+Botswana,13,,1.0,,,12,main_table_countries_yesterday
+Saint Kitts and Nevis,12,,,,,12,main_table_countries_yesterday
+St. Vincent Grenadines,12,,,,1.0,11,main_table_countries_yesterday
+CAR,11,+3,,,3.0,8,main_table_countries_yesterday
+Greenland,11,,,,11.0,0,main_table_countries_yesterday
+Montserrat,11,+2,,,1.0,10,main_table_countries_yesterday
+Seychelles,11,,,,,11,main_table_countries_yesterday
+Cabo Verde,10,+2,1.0,,1.0,8,main_table_countries_yesterday
+Suriname,10,,1.0,,6.0,3,main_table_countries_yesterday
+Turks and Caicos,10,+1,1.0,,,9,main_table_countries_yesterday
+Sierra Leone,10,,,,,10,main_table_countries_yesterday
+MS Zaandam,9,,2.0,,,7,main_table_countries_yesterday
+Gambia,9,,1.0,,2.0,6,main_table_countries_yesterday
+Nicaragua,9,,1.0,,4.0,4,main_table_countries_yesterday
+Vatican City,8,,,,2.0,6,main_table_countries_yesterday
+Mauritania,7,,1.0,,2.0,4,main_table_countries_yesterday
+St. Barth,6,,,,4.0,2,main_table_countries_yesterday
+Western Sahara,6,,,,,6,main_table_countries_yesterday
+Burundi,5,,1.0,+1,,4,main_table_countries_yesterday
+Bhutan,5,,,,2.0,3,main_table_countries_yesterday
+Falkland Islands,5,,,,1.0,4,main_table_countries_yesterday
+Sao Tome and Principe,4,,,,,4,main_table_countries_yesterday
+South Sudan,4,,,,,4,main_table_countries_yesterday
+Timor-Leste,4,+2,,,1.0,3,main_table_countries_yesterday
+Anguilla,3,,,,1.0,2,main_table_countries_yesterday
+British Virgin Islands,3,,,,2.0,1,main_table_countries_yesterday
+Caribbean Netherlands,3,,,,,3,main_table_countries_yesterday
+Papua New Guinea,2,,,,,2,main_table_countries_yesterday
+Saint Pierre Miquelon,1,,,,,1,main_table_countries_yesterday
+Yemen,1,,,,,1,main_table_countries_yesterday
+Total:,1923848,"+71,591",119618.0,"+5,423",444636.0,1359594,main_table_countries_yesterday
+USA Total,586941,"+26,641",23640.0,"+1,535",,526353,usa_table_countries_yesterday
+New York,195655,"+6,240",10056.0,+671,,168510,usa_table_countries_yesterday
+New Jersey,64584,"+2,734",2443.0,+93,,60870,usa_table_countries_yesterday
+Massachusetts,26867,"+1,392",844.0,+88,,25294,usa_table_countries_yesterday
+Michigan,25635,+997,1602.0,+115,,23590,usa_table_countries_yesterday
+Pennsylvania,24292,"+1,372",590.0,+29,,23052,usa_table_countries_yesterday
+California,24139,+962,727.0,+53,,22472,usa_table_countries_yesterday
+Illinois,22025,"+1,173",794.0,+74,,21181,usa_table_countries_yesterday
+Florida,21019,"+1,124",499.0,+38,,19895,usa_table_countries_yesterday
+Louisiana,21016,+421,884.0,+44,,20082,usa_table_countries_yesterday
+Texas,14277,+637,295.0,+17,,11968,usa_table_countries_yesterday
+Georgia,13621,"+1,071",480.0,+38,,13110,usa_table_countries_yesterday
+Connecticut,13381,"+1,346",602.0,+48,,12729,usa_table_countries_yesterday
+Washington,10703,+173,523.0,+18,,8855,usa_table_countries_yesterday
+Maryland,8936,+711,262.0,+27,,8071,usa_table_countries_yesterday
+Indiana,8236,+308,350.0,+7,,7872,usa_table_countries_yesterday
+Colorado,7684,+381,304.0,+14,,7340,usa_table_countries_yesterday
+Ohio,6975,+371,274.0,+21,,6581,usa_table_countries_yesterday
+Virginia,5747,+473,149.0,+8,,5131,usa_table_countries_yesterday
+Tennessee,5610,+302,109.0,+8,,3830,usa_table_countries_yesterday
+North Carolina,4884,+302,107.0,+17,,4691,usa_table_countries_yesterday
+Missouri,4510,+350,122.0,+6,,4204,usa_table_countries_yesterday
+Alabama,3803,+220,103.0,+10,,3680,usa_table_countries_yesterday
+Arizona,3702,+163,122.0,+7,,3540,usa_table_countries_yesterday
+South Carolina,3439,+120,87.0,+5,,3352,usa_table_countries_yesterday
+Wisconsin,3428,+87,154.0,+10,,3209,usa_table_countries_yesterday
+Rhode Island,2976,+311,73.0,+10,,2893,usa_table_countries_yesterday
+Nevada,2971,+135,120.0,+8,,1682,usa_table_countries_yesterday
+Mississippi,2942,+161,98.0,+2,,2844,usa_table_countries_yesterday
+Utah,2363,+60,18.0,,,2127,usa_table_countries_yesterday
+Oklahoma,2069,+99,99.0,+3,,910,usa_table_countries_yesterday
+Kentucky,2048,+85,104.0,+7,,1638,usa_table_countries_yesterday
+District Of Columbia,1955,+80,52.0,+2,,1396,usa_table_countries_yesterday
+Delaware,1761,+136,41.0,+6,,1443,usa_table_countries_yesterday
+Iowa,1710,+123,43.0,+2,,926,usa_table_countries_yesterday
+Minnesota,1650,+29,70.0,,,738,usa_table_countries_yesterday
+Oregon,1584,+57,53.0,+1,,1531,usa_table_countries_yesterday
+Arkansas,1475,+195,30.0,+3,,1018,usa_table_countries_yesterday
+Idaho,1453,+27,33.0,+6,,1396,usa_table_countries_yesterday
+Kansas,1376,+39,62.0,+6,,1186,usa_table_countries_yesterday
+New Mexico,1345,+100,31.0,+5,,1019,usa_table_countries_yesterday
+New Hampshire,1020,+35,23.0,,,748,usa_table_countries_yesterday
+Nebraska,871,+80,18.0,+1,,831,usa_table_countries_yesterday
+South Dakota,868,+138,6.0,,,655,usa_table_countries_yesterday
+Vermont,748,+21,28.0,+1,,720,usa_table_countries_yesterday
+Maine,698,+65,19.0,,,406,usa_table_countries_yesterday
+West Virginia,633,+22,9.0,+1,,539,usa_table_countries_yesterday
+Hawaii,504,+5,9.0,,,180,usa_table_countries_yesterday
+Montana,394,+7,7.0,+1,,216,usa_table_countries_yesterday
+North Dakota,331,+23,8.0,,,196,usa_table_countries_yesterday
+Alaska,277,+5,8.0,,,184,usa_table_countries_yesterday
+Wyoming,275,+5,1.0,+1,,134,usa_table_countries_yesterday
+Guam,133,,5.0,,,70,usa_table_countries_yesterday
+Northern Mariana Islands,11,,2.0,,,9,usa_table_countries_yesterday
+Puerto Rico,903,+6,45.0,+1,,854,usa_table_countries_yesterday
+United States Virgin Islands,51,,1.0,,,7,usa_table_countries_yesterday
+US Military,4528,"+1,162",15.0,+2,,3925,usa_table_countries_yesterday
+Navajo Nation,698,,24.0,,,674,usa_table_countries_yesterday
+Grand Princess Ship,103,,3.0,,,100,usa_table_countries_yesterday
+Wuhan Repatriated,3,,,,,3,usa_table_countries_yesterday
+Diamond Princess Ship,46,,,,,46,usa_table_countries_yesterday
+Total:,586941,"+26,641",23640.0,"+1,535",,526353,usa_table_countries_yesterday
+USA Total,587173,232.0,23644.0,4.0,,526581,usa_table_countries_today
+New York,195655,,10056.0,,,168510,usa_table_countries_today
+New Jersey,64584,,2443.0,,,60870,usa_table_countries_today
+Massachusetts,26867,,844.0,,,25294,usa_table_countries_today
+Michigan,25635,,1602.0,,,23590,usa_table_countries_today
+California,24371,232.0,731.0,4.0,,22700,usa_table_countries_today
+Pennsylvania,24292,,590.0,,,23052,usa_table_countries_today
+Illinois,22025,,794.0,,,21181,usa_table_countries_today
+Florida,21019,,499.0,,,19895,usa_table_countries_today
+Louisiana,21016,,884.0,,,20082,usa_table_countries_today
+Texas,14277,,295.0,,,11968,usa_table_countries_today
+Georgia,13621,,480.0,,,13110,usa_table_countries_today
+Connecticut,13381,,602.0,,,12729,usa_table_countries_today
+Washington,10703,,523.0,,,8855,usa_table_countries_today
+Maryland,8936,,262.0,,,8071,usa_table_countries_today
+Indiana,8236,,350.0,,,7872,usa_table_countries_today
+Colorado,7684,,304.0,,,7340,usa_table_countries_today
+Ohio,6975,,274.0,,,6581,usa_table_countries_today
+Virginia,5747,,149.0,,,5131,usa_table_countries_today
+Tennessee,5610,,109.0,,,3830,usa_table_countries_today
+North Carolina,4884,,107.0,,,4691,usa_table_countries_today
+Missouri,4510,,122.0,,,4204,usa_table_countries_today
+Alabama,3803,,103.0,,,3680,usa_table_countries_today
+Arizona,3702,,122.0,,,3540,usa_table_countries_today
+South Carolina,3439,,87.0,,,3352,usa_table_countries_today
+Wisconsin,3428,,154.0,,,3209,usa_table_countries_today
+Rhode Island,2976,,73.0,,,2893,usa_table_countries_today
+Nevada,2971,,120.0,,,1682,usa_table_countries_today
+Mississippi,2942,,98.0,,,2844,usa_table_countries_today
+Utah,2363,,18.0,,,2127,usa_table_countries_today
+Oklahoma,2069,,99.0,,,910,usa_table_countries_today
+Kentucky,2048,,104.0,,,1638,usa_table_countries_today
+District Of Columbia,1955,,52.0,,,1396,usa_table_countries_today
+Delaware,1761,,41.0,,,1443,usa_table_countries_today
+Iowa,1710,,43.0,,,926,usa_table_countries_today
+Minnesota,1650,,70.0,,,738,usa_table_countries_today
+Oregon,1584,,53.0,,,1531,usa_table_countries_today
+Arkansas,1475,,30.0,,,1018,usa_table_countries_today
+Idaho,1453,,33.0,,,1396,usa_table_countries_today
+Kansas,1376,,62.0,,,1186,usa_table_countries_today
+New Mexico,1345,,31.0,,,1019,usa_table_countries_today
+New Hampshire,1020,,23.0,,,748,usa_table_countries_today
+Nebraska,871,,18.0,,,831,usa_table_countries_today
+South Dakota,868,,6.0,,,655,usa_table_countries_today
+Vermont,748,,28.0,,,720,usa_table_countries_today
+Maine,698,,19.0,,,406,usa_table_countries_today
+West Virginia,633,,9.0,,,539,usa_table_countries_today
+Hawaii,504,,9.0,,,180,usa_table_countries_today
+Montana,394,,7.0,,,216,usa_table_countries_today
+North Dakota,331,,8.0,,,196,usa_table_countries_today
+Alaska,277,,8.0,,,184,usa_table_countries_today
+Wyoming,275,,1.0,,,134,usa_table_countries_today
+Guam,133,,5.0,,,70,usa_table_countries_today
+Northern Mariana Islands,11,,2.0,,,9,usa_table_countries_today
+Puerto Rico,903,,45.0,,,854,usa_table_countries_today
+United States Virgin Islands,51,,1.0,,,7,usa_table_countries_today
+US Military,4528,,15.0,,,3925,usa_table_countries_today
+Navajo Nation,698,,24.0,,,674,usa_table_countries_today
+Grand Princess Ship,103,,3.0,,,100,usa_table_countries_today
+Wuhan Repatriated,3,,,,,3,usa_table_countries_today
+Diamond Princess Ship,46,,,,,46,usa_table_countries_today
+Total:,587173,232.0,23644.0,4.0,,526581,usa_table_countries_today
